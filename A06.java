@@ -12,7 +12,7 @@ class A06 {
 		int eng = s.nextInt();
 		double avg = (kor + math + eng)/3;
 		System.out.print(name + "님은\n평균은 " + avg + "이고\n");
-		if(avg <= 95) {
+		if(avg >= 95) {
 			System.out.print("학점은 A+ 입니다.");
 		}
 		else if(avg < 95 && avg >= 90) {
