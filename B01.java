@@ -12,4 +12,7 @@ class B01 {
 			System.out.print("미성년자가 아닙니다.");
 		}
 	}
+	public static void main(String[] args) {
+                new B01().print();
+        }
 }
